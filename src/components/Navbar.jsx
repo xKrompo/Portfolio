@@ -42,10 +42,10 @@ const Navbar = () => {
             <a href="#">Experience</a>
           </li>
           <li className="transform hover:scale-110 hover:text-blue-900">
-            <a href="#">Skills</a>
+            <a href="#">Projects</a>
           </li>
           <li className="transform hover:scale-110 hover:text-blue-900">
-            <a href="#">Education</a>
+            <a href="#">Technologies</a>
           </li>
           <li className="transform hover:scale-110 hover:text-blue-900">
             <a href="#">Contact</a>

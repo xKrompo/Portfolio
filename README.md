@@ -28,7 +28,7 @@ This project is licensed under the MIT License. See here `LICENSE.txt` for more 
 
 ## Contact
 
-Nikolas Wolf - [@Instagram_handle](https://www.instagram.com/wolf_nikolas12/) - mikulaswolf@gmail.com
+Nikolas Wolf - [@Instagram](https://www.instagram.com/wolf_nikolas12/) - mikulaswolf@gmail.com
 Project Link: [https://github.com/xKrompo/Portfolio](https://github.com/xKrompo/Portfolio)
 
 
