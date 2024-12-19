@@ -70,7 +70,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Vielfak 6,Kirchwalsede 27386,Germany ",
+  phoneNo: "+4917684709041 ",
+  email: "mikulaswolg@gmail.com",
 };
