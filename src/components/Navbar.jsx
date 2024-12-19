@@ -29,7 +29,7 @@ const Navbar = () => {
       <div
         className={`${
           isMenuOpen ? 'block' : 'hidden'
-        } absolute top-16 left-0 z-10 w-full bg-gray-100 lg:static lg:block lg:w-auto lg:bg-transparent`}
+        } absolute top-16 left-0 z-10 w-full bg-gray-800 lg:static lg:block lg:w-auto lg:bg-transparent`}
       >
         <ul className="flex flex-col items-center gap-4 py-4 text-xl lg:flex-row lg:m-0 lg:py-0 lg:text-2xl">
           <li className="transform hover:scale-110 hover:text-blue-900">
