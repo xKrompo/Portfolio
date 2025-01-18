@@ -1,9 +1,10 @@
+
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
 
 const Projects = () => {
     return (
-        <div className="border-b border-neutral-900 pb-4">
+        <div id="projects" className="border-b border-neutral-900 pb-4">
         <motion.h1
         whileInView={{opacity: 1, y: 0}}
         initial={{opacity: 0, y: -100}}
@@ -30,6 +31,7 @@ const Projects = () => {
             className="w-full max-w-xl lg:w-3/4 justify-end ">
                 <h6 className="mb-2 font-semibold"> {project.title} </h6>
                 <p className="mb-4 text-neutral-400"> {project.description} </p>
+                <a target="_blank" className="mb-2 w-full flex " href={project.link}>Link </a>
                 {project.technologies.map((tech, index) => (
                     <span key={index} className="mr-2 rounded bg-neutral-900 py-1 px-2 text-sm font-medium text-purple-800">
                     {tech}

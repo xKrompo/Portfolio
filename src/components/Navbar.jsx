@@ -36,32 +36,32 @@ const Navbar = () => {
             <a href="#">Home</a>
           </li>
           <li className="transform hover:scale-110 hover:text-blue-900">
-            <a href="#">About Me</a>
+            <a href="#about">About Me</a>
           </li>
           <li className="transform hover:scale-110 hover:text-blue-900">
-            <a href="#">Experience</a>
+            <a href="#exp">Experience</a>
           </li>
           <li className="transform hover:scale-110 hover:text-blue-900">
-            <a href="#">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li className="transform hover:scale-110 hover:text-blue-900">
-            <a href="#">Technologies</a>
+            <a href="#tech">Technologies</a>
           </li>
           <li className="transform hover:scale-110 hover:text-blue-900">
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>
 
       {/* Social Links */}
       <div className="hidden lg:flex items-center gap-4 pr-6 text-2xl">
-        <a href="#" className="transform hover:scale-110">
+        <a target='_blank' href="https://github.com/xKrompo" className="transform hover:scale-110">
           <FaGithub />
         </a>
-        <a href="#" className="transform hover:scale-110">
+        <a target='_blank' href="https://www.linkedin.com/in/nikolas-wolf-6726b22a8/" className="transform hover:scale-110">
           <FaLinkedin />
         </a>
-        <a href="#" className="transform hover:scale-110">
+        <a target='_blank' href="https://www.instagram.com/wolf_nikolas12/" className="transform hover:scale-110">
           <FaInstagram />
         </a>
       </div>
