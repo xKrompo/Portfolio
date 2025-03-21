@@ -7,7 +7,11 @@ import { link } from "framer-motion/client";
 
 export const HERO_CONTENT = `I am 30 years old and I came to live and work in Germany in 2020. I started to work at the waterski cable in Schloss Dankern until the end of 2023. I realized that, although my passion for sports is strong, my affinity for computer technologies and creative processes of solving coding problems has become stronger. I do find a good balance in being a representative for Slovakia in waterskiing competitions all over the world, but I realized that the work with technologies such as Javascript, React, Node.JS and MongoDB bring me a lot of joy. So, I pursued that path to become a full stack developer and successfully graduated from the Digital Career Institute in March 2025.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full-stack developer with a passion for building efficient and user-friendly web applications. I recently completed my web development course at DCI, where I gained hands-on experience with technologies like HTML, CSS, React, Next.js, Node.js, and MongoDB. My journey into coding started with a deep curiosity about how things work, and now I’m excited to apply my skills in real-world projects. I thrive in collaborative environments and enjoy tackling complex challenges to create high-quality solutions.
+
+Outside of coding, I love staying active and exploring new technologies. I’m passionate about sports like waterskiing, skiing, volleyball, and gaming. I also enjoy taking care of my pets, including a dog, a horse, and four cats.
+
+`;
 
 export const EXPERIENCES = [
   {

@@ -1,4 +1,4 @@
-import Photo from '../assets/Krompo.jpg'
+import Photo from '../assets/me.jpeg'
 import { HERO_CONTENT } from '../constants';
 import {motion} from 'framer-motion';
 
@@ -44,12 +44,12 @@ const Hero =() => {
           </div>
         </div>
         <div className='w-full lg:w-1/2 lg:p-8'>
-          <div className='flex justify-center'>
+          <div className='flex justify-center lg:w-1/2 lg:h-1/1'> 
             <motion.img
             initial={{x: 100, opacity: 0}}
             animate={{x: 0, opacity: 1}}
             transition={{duration: 1, delay: 1.2}}
-            src={Photo} alt='Nikolas Wolf' className='rounded-2xl'/>
+            src={Photo} alt='Nikolas Wolf' className='rounded-2x h-50'/>
           </div>
         </div>
       </div>    
