@@ -7,9 +7,9 @@ import { link } from "framer-motion/client";
 
 export const HERO_CONTENT = `I am 30 years old and I came to live and work in Germany in 2020. I started to work at the waterski cable in Schloss Dankern until the end of 2023. I realized that, although my passion for sports is strong, my affinity for computer technologies and creative processes of solving coding problems has become stronger. I do find a good balance in being a representative for Slovakia in waterskiing competitions all over the world, but I realized that the work with technologies such as Javascript, React, Node.JS and MongoDB bring me a lot of joy. So, I pursued that path to become a full stack developer and successfully graduated from the Digital Career Institute in March 2025.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full-stack developer with a passion for building efficient and user-friendly web applications. I recently completed my web development course at DCI, where I gained hands-on experience with technologies like HTML, CSS, React, Next.js, Node.js, and MongoDB. My journey into coding started with a deep curiosity about how things work, and now I’m excited to apply my skills in real-world projects. I thrive in collaborative environments and enjoy tackling complex challenges to create high-quality solutions.
+export const ABOUT_TEXT = `I am a dedicated and adaptable full-stack developer with a passion for building efficient and user-friendly web applications. I recently completed my web development course at DCI, where I gained hands-on experience with technologies like HTML, CSS, React, Next.js, Node.js, and MongoDB. My journey into coding started with a deep curiosity about how things work, and now I’m excited to apply my skills in real-world projects. I thrive in collaborative environments and enjoy tackling complex challenges to create high-quality solutions.
 
-Outside of coding, I love staying active and exploring new technologies. I’m passionate about sports like waterskiing, skiing, volleyball, and gaming. I also enjoy taking care of my pets, including a dog, a horse, and four cats.
+Outside of coding, I love staying active. I’m passionate about sports like waterskiing, skiing, volleyball, and gaming. I also enjoy taking care of my pets, including a dog, a horse, and four cats.
 
 `;
 
@@ -46,10 +46,10 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Up comming project Formula 1 2.0",
+    title: "Upcoming project Formula 1 2.0",
     image: project1,
     description:
-      "A fully functional Formula 1 website with features like product listing, shopping cart, and user authentication.",
+      "A fully functional Formula 1 website with all the information you need to know about Formula 1 from the past, present and future.",
       
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
@@ -65,7 +65,7 @@ export const PROJECTS = [
     title: "E-commerce Platform",
     image: project3,
     description:
-      "A fully functional website with features like product listing, shopping cart, and user authentication.",
+      "A fully functional website with features like product listing, shopping cart, and user authentication. This website I designed as part of a collaborated task during the DCI course.",
       link: "https://github.com/xKrompo/ecommerce_project",
     technologies: ["HTML", "CSS", "React", "Tailwind"],
   },
@@ -73,7 +73,7 @@ export const PROJECTS = [
     title: "web-wizards-recipe-website",
     image: project4,
     description:
-      "A recipe website that allows users to search for recipes, view details, and save their favorite recipes.",
+      "A recipe website that allows users to search for recipes, view details, and save their favorite recipes.This was a group project in the beginning of my studies at DCI.",
       link: "https://github.com/xKrompo/web-wizards-recipe-website",
     technologies: ["HTML", "CSS"],
   },
