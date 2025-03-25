@@ -1,5 +1,7 @@
 import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
+import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
+import { IoMdClose } from 'react-icons/io';
 
 export const Contact = () => {
   return (
@@ -25,6 +27,17 @@ export const Contact = () => {
         initial={{opacity: 0, x: 100}}
         transition={{duration: 1}}
         href="#" className="border-b"> {CONTACT.email} </motion.a>
+        <div className=" lg:flex items-center gap-4 pr-6 text-2xl justify-center mt-4 flex">
+        <a target='_blank' href="https://github.com/xKrompo" className="transform hover:scale-110">
+          <FaGithub />
+        </a>
+        <a target='_blank' href="https://www.linkedin.com/in/nikolas-wolf-6726b22a8/" className="transform hover:scale-110">
+          <FaLinkedin />
+        </a>
+        <a target='_blank' href="https://www.instagram.com/wolf_nikolas12/" className="transform hover:scale-110">
+          <FaInstagram />
+        </a>
+      </div>
     </div>
     </div>
   )

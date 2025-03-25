@@ -82,5 +82,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Vielfak 6,Kirchwalsede 27386,Germany ",
   phoneNo: "+4917684709041 ",
-  email: "mikulaswolg@gmail.com",
+  email: "mikulaswolf@gmail.com",
 };
